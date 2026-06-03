@@ -1,0 +1,67 @@
+:root {
+    --primary: #4B0082;
+    --accent: #6A0DAD;
+    --light: #F8F9FA;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background: var(--primary) !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.navbar-brand img {
+    height: 78px;           /* Bigger logo on index */
+    width: auto;
+}
+
+.hero {
+    background: linear-gradient(rgba(75, 0, 130, 0.88), rgba(75, 0, 130, 0.88)), 
+                url('../assets/images/poster.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 160px 0 120px;
+}
+
+.service-card, .about-card {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.service-card:hover, .about-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(75, 0, 130, 0.15);
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #25D366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: all 0.3s;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    background: #20ba5c;
+}
+
+footer {
+    background: #2C003E;
+}
