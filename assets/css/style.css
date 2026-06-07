@@ -6,6 +6,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
 }
 
 .navbar {
@@ -14,7 +16,7 @@ body {
 }
 
 .navbar-brand img {
-    height: 78px;           /* Bigger logo on index */
+    height: 78px;
     width: auto;
 }
 
